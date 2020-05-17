@@ -1,8 +1,102 @@
 body {
-	background-color: black;
+	background-color: white;
+	color: black;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
 	
 }
 
-h1 {
-	color: white;
+nav {
+	background-color: white;
 }
+
+.nav-item {
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.container {
+	padding: 5px;
+}
+
+table {
+	width: 100%;
+	padding: 5px;
+}
+
+form {
+	padding: 10px;
+	
+}
+
+tr {
+	border: 1px solid black;
+	text-align: center;
+	background-color: white;
+}
+
+td {
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px;
+}
+
+footer {
+	height: 230px;
+	padding: 5px 5px 5px 5px;
+	width: 100%;
+}
+
+.sisalto {
+	padding: 5px;
+	margin-left: 150px;
+	margin-right: 150px;
+	background-color: #ffddcf;
+	margin-bottom: 20px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.jumbotron {
+	background-color: white;
+	padding: 30px;
+}
+
+.kappale {
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.logo {
+	height: 20%;
+}
+
+#yhteystiedot {
+	padding: 10px;
+}
+
+h3 {
+	padding-left: 40px;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: black;
+}
+
+
