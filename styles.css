@@ -1,7 +1,8 @@
 body {
 	background-color: white;
+	color: black;
 	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
-	
+	background-color: #ffddcf;
 }
 
 nav {
@@ -42,17 +43,12 @@ td {
 }
 
 footer {
-	height: 230px;
-	padding: 5px 5px 5px 5px;
+	padding: 20px 5px 20px 5px;
 	width: 100%;
 }
 
 .sisalto {
 	padding: 5px;
-	margin-left: 150px;
-	margin-right: 150px;
-	background-color: #ffddcf;
-	margin-bottom: 20px;
 }
 
 li {
@@ -66,12 +62,11 @@ li {
 
 .kappale {
 	text-align: center;
-	padding-left: 150px;
-	padding-right: 150px;
 }
 
-.logo {
-	height: 20%;
+.img-fluid {
+	max-width: 100%;
+	height: auto;
 }
 
 #yhteystiedot {
@@ -79,7 +74,15 @@ li {
 }
 
 h3 {
-	padding-left: 40px;
+	text-align: center;
+}
+
+.col-sm-3 {
+	text-align: center;
+}
+
+.col-sm-6 {
+	text-align: center;
 }
 
 a:link {
@@ -97,5 +100,4 @@ a:hover {
 a:active {
 	color: black;
 }
-
 
